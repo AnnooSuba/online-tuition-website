@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online-Tuition-Website Design</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <section class="header">
+    <nav>
+      <a href="index.html"class="logo" ><img src="img/Proportional Education-logos.jpeg"></a>
+      <div class="nav-links" id="navlinks">
+        <i class="fa fa-times" onclick="hidemenu()"></i>
+
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="About.html">ABOUT</a></li>
+          <li><a href="subject.html">SUBJECTS</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+
+    <div class="text-box">
+      <h1>Proposional Education</h1>
+      <p>Master Maths, Physics, and Chemistry for NEET, IIT, and JEE with an expert having 6 years of experience and GATE eligibility. Benefit from personalized online tuition, comprehensive resources, and proven strategies to achieve academic excellence and secure top ranks.</p>
+      <a href="About.html" class="hero-btn">Visit Us To Know More</a>
+    </div>
+
+  </section>
+
+  <!--course-->
+
+  <section class="subjects">
+    <h1>Subjects We Offer</h1>
+    <p>Expert Physics, Maths, Chemistry tuition for NEET, IIT, JEE. Enhance learning with comprehensive resources and experienced guidance.</p>
+
+    <div class="row">
+      <div class="subject-col">
+        <h3>Physics</h3>
+        <p>High-scoring Physics tuition for international school students, helping them achieve top marks and secure college admissions in Canada and the US. Benefit from expert guidance and comprehensive resources tailored to enhance understanding and performance in Physics.</p>
+      </div>
+      <div class="subject-col">
+        <h3>Mathematics</h3>
+        <p>Achieve excellence in Maths with specialized tuition for international school students. Our expert-led courses help students secure high scores, paving the way for college admissions in Canada and the US. Experience personalized learning and thorough preparation for academic success.</p>
+      </div>
+      <div class="subject-col">
+        <h3>Chemistry</h3>
+        <p>Excel in Chemistry with our top-notch tuition for international school students. Our experienced instructors guide students to achieve outstanding scores, supporting their college admission aspirations in Canada and the US. Engage with interactive lessons and in-depth study materials.</p>
+      </div>
+    </div>
+
+  </section>
+  <!--facilities-->
+  <section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Our tuition offers weekly tests, detailed notes, and model question papers. Post-12th, we provide personalized career guidance based on our founder's experience, ensuring students make informed choices for successful futures in Canada and the US.</p>
+    <div class="row">
+      <div class="facilities-col">
+        <img src="img/close-up-hand-holding-pen_23-2149014055.avif">
+        <h3>24/7 Doubt Clear</h3>
+        <p>We offer 24/7 doubt clearing support to ensure students receive timely assistance with their academic queries.</p>
+      </div>
+      <div class="facilities-col">
+        <img src="img/smiling-asian-girl-student-wears-wireless-headphones-write-notebook-study-language-online-watch-listen-lecturer-webinar-via-video-call-e-learning-home-distance-education_201468-1175.avif">
+        <h3>Weekly Exam</h3>
+        <p>We conduct weekly exams to assess student progress and reinforce learning in preparation for academic success.</p>
+      </div>
+      <div class="facilities-col">
+        <img src="img/illustration-concept-career-growth-career-development-with-cheerful-businesswoman-walking_675567-4761.jpg">
+        <h3>Career Guidance After 12th</h3>
+        <p>After 12th, receive personalized career guidance based on our founder's experience, helping you make informed decisions for your future.</p>
+      </div>
+    </div>
+  </section>
+  <!-------call to action------->
+
+  <section class="cta">
+    <h1>Enroll for our online classes <br>anywhere from the world</h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>
+  </section>
+  <!-----------footer-->
+
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>Offering online tuition for 9th to 12th-grade students, we provide expert guidance in Physics, Maths, and Chemistry. <br>Our comprehensive approach includes weekly tests, detailed notes, model question papers, and 24/7 doubt clearing. <br> After 12th, benefit from personalized career advice to help you make informed decisions for your future.</p>
+    <div class="icons">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-twitter"></i>
+    </div>
+    <p>Made with <i class="fa-solid fa-heart"></i> by Proposional Education</p>
+  </section>
+
+  
+  <!--Javascript -->
+  <script>
+    var navlinks = document.getElementById("navlinks");
+    
+    function showmenu(){
+      navlinks.style.right = "0";
+    }
+    function hidemenu(){
+      navlinks.style.right = "-200px";
+    }
+  </script>
+  
+</body>
+</html>
